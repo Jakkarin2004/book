@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sarabun", sans-serif;
+}
+
+/* navbar css*/
+.header{
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index:999;
+}
+
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 8px 0px rgb(96, 96, 96);
+    background-color: white;
+    z-index:999;
+}
+
+nav .logo{
+    margin-left: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .1s;
+}
+
+nav .logo:hover{
+    color: blue;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin:1rem;
+}
+
+nav ul li{
+    margin-left: 1rem;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+nav ul li a:hover{
+    color: blue;
+}

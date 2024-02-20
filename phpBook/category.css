@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sarabun", sans-serif;
+}
+
+.category_main{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category_main .cate{
+    margin:0.5rem;
+}
+
+/*  */
+.serch{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+}
+.serch p{
+    margin:0 1.5rem;
+}
+/*  */
